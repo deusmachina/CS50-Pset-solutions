@@ -1,0 +1,12 @@
+0.  A long word that means lug disease caused by inhaling fine ash and sand dust
+1.  getrusage gives resource used for RUSAGE_SELF
+2.  16 variables
+3.  We pass them by reference as we need a cannot pass objects of a struct by value. So we when we need to pass a pointer to where the values are stored 
+4.  So in the for loop each letter is read one by one and incremented to a character array . When \0 is encountered it is concatenated to then end of the 
+    word and hence the word has now been read. It can then be used in other functions .
+5.  If we use fscanf we would'nt know whether the word was alphanumeric or not .
+6.  Because these parameters will not be changed even after execution of entire program . So it's better to define them as constant .
+7.  I used hash table with each node containing one word and a pointer to next node .
+8.  10 times slower .
+9.  Increased size of hash table to 10 times it's original size
+10. I wanted to implement a queue instead of a stack as it would've made the list sorted but couldn't .
